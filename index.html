@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<body>
+<script>
+    
+    let d= new Date();
+    document.body.innerHTML = "<h1>Today's date is" + d + "</h1>"
+
+    let selectedAnimals=['cat','dog', 'tigers', 1];
+    document.write(selectedAnimals);
+    window.alert(selectedAnimals[3]);
+
+    let person = new Object();
+    person.name= "Anita";
+    person.age=4;
+    person.home='Kampala';
+
+    document.write(person.name);
+    document.write(person.age);
+
+    person.UpdateAge = function() {
+        ++person.age;
+    }
+person.UpdateAge();
+    document.write(person.age);
+</script>
+<h1> JAVASCRIPT </h1>
+
+<p> hello there </p>
+</body>
+</html>
